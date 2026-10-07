@@ -1,0 +1,84 @@
+{
+  "version": 1,
+  "isActive": true,
+  "currentRegulation": "26",
+  "currentYear": 2026,
+  "departments": [
+    { "code": "CE", "name": "Civil Engineering", "programmeCodes": ["CE", "PA", "PB"] },
+    { "code": "ME", "name": "Mechanical Engineering", "programmeCodes": ["ME"] },
+    { "code": "EE", "name": "Electrical and Electronics Engineering", "programmeCodes": ["EE"] },
+    { "code": "EC", "name": "Electronics and Communication Engineering", "programmeCodes": ["EC", "PC"] },
+    { "code": "CS", "name": "Computer Science and Engineering", "programmeCodes": ["CS", "PD"] },
+    { "code": "IT", "name": "Information Technology", "programmeCodes": ["IT"] },
+    { "code": "CB", "name": "Computer Science and Business Systems", "programmeCodes": ["CB"] },
+    { "code": "AM", "name": "CSE (AI and ML)", "programmeCodes": ["AM"] },
+    { "code": "MT", "name": "Mechatronics", "programmeCodes": ["MT"] },
+    { "code": "DS", "name": "Data Science", "programmeCodes": ["DS"] },
+    { "code": "CA", "name": "Computer Applications", "programmeCodes": ["CA"] }
+  ],
+  "commonCourseDepts": [
+    "MATHS",
+    "PHYSICS",
+    "CHEMISTRY",
+    "ENGLISH",
+    "HUMANITIES"
+  ],
+  "categoryCodes": [
+    "C", "D", "S", "E", "L", "H", "P", "Q", "R", "G", "F", "K", "1", "2", "V", "A", "N", "M", "T"
+  ],
+  "electiveCategories": [
+    "P", "Q", "R", "G", "F"
+  ],
+  "bloomToTpsMapping": {
+    "Remember": 1,
+    "Understand": 2,
+    "Apply": 3,
+    "Analyze": 4,
+    "Evaluate": 5,
+    "Create": 5
+  },
+  "actionVerbs": {
+    "tps2": ["explain", "describe", "interpret", "classify"],
+    "tps3": ["solve", "compute", "demonstrate", "use", "apply"],
+    "tps4": ["compare", "differentiate", "examine", "break down", "analyze", "analyse"],
+    "tps5": ["assess", "conclude", "critique", "decide", "evaluate", "justify", "prioritise", "prioritize", "recommend", "validate", "verify"]
+  },
+  "thresholds": {
+    "coCountTheoryMin": 6,
+    "coCountTheoryMax": 8,
+    "coCountLabMin": 6,
+    "coCountLabMax": 7,
+    "tpsMinAllowed": 2,
+    "coTps3PlusPercentageMin": 70,
+    "coWeightageMin": 8,
+    "coWeightageMax": 20,
+    "coWeightageTotal": 100,
+    "preambleWordMin": 60,
+    "preambleWordMax": 90,
+    "preambleLineMin": 3,
+    "preambleLineMax": 4,
+    "preambleCoOverlapThreshold": 0.60,
+    "periodsPerCredit": 12,
+    "courseNameMaxLen": 60,
+    "bookRecencyCoreYears": 10,
+    "bookRecencyElectiveYears": 5,
+    "textBooksCountMin": 1,
+    "textBooksCountMax": 2,
+    "referenceBooksCountMin": 3,
+    "referenceBooksCountMax": 6
+  },
+  "assessmentComponentMarks": {
+    "CAT1": 15,
+    "Assignment1": 10,
+    "CAT2": 15,
+    "Assignment2": 10,
+    "TerminalExam": 50
+  },
+  "domainToSdgMapping": {
+    "software": [9, 4],
+    "environment": [13, 11, 7],
+    "energy": [7, 12],
+    "health": [3],
+    "infrastructure": [9, 11]
+  }
+}

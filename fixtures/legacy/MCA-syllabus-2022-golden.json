@@ -1,0 +1,38 @@
+{
+  "description": "Golden expected findings for MCA-syllabus-2022-24-29.pdf under REG2026_STRICT for CA faculty member",
+  "expectedFindings": [
+    { "ruleId": "THEORY-CODE-DEPT", "status": "pass" },
+    { "ruleId": "THEORY-CODE-REG", "status": "fail" },
+    { "ruleId": "THEORY-CODE-UV", "status": "fail" },
+    { "ruleId": "THEORY-NAME-CHARS", "status": "pass" },
+    { "ruleId": "THEORY-NAME-LEN", "status": "pass" },
+    { "ruleId": "THEORY-NAME-CASE", "status": "warn" },
+    { "ruleId": "THEORY-CREDITS-MATH", "status": "pass" },
+    { "ruleId": "THEORY-PREAMBLE-WORDS", "status": "warn" },
+    { "ruleId": "THEORY-PREAMBLE-LINES", "status": "pass" },
+    { "ruleId": "THEORY-PREAMBLE-GENERIC", "status": "warn" },
+    { "ruleId": "THEORY-CO-COUNT", "status": "pass" },
+    { "ruleId": "THEORY-CO-FORMAT-TPS", "status": "fail" },
+    { "ruleId": "THEORY-CO-FORMAT-PI", "status": "fail" },
+    { "ruleId": "THEORY-CO-FORMAT-WEIGHTAGE", "status": "fail" },
+    { "ruleId": "THEORY-CO-FORMAT-SDG", "status": "fail" },
+    { "ruleId": "THEORY-CO-TPS-RATIO", "status": "pass" },
+    { "ruleId": "THEORY-CO-VERB-MATCH", "status": "warn" },
+    { "ruleId": "THEORY-ASSESS-LAYOUT", "status": "fail" },
+    { "ruleId": "THEORY-ASSESS-COLS-SUM", "status": "pass" },
+    { "ruleId": "THEORY-ASSESS-BLOOM-70", "status": "warn" },
+    { "ruleId": "THEORY-BOOKS-SPLIT", "status": "fail" },
+    { "ruleId": "THEORY-BOOKS-YEAR", "status": "pass" },
+    { "ruleId": "THEORY-BOOKS-EDITION", "status": "warn" },
+    { "ruleId": "THEORY-BOOKS-RECENCY", "status": "pass" },
+    { "ruleId": "THEORY-SCHEDULE-PERIODS", "status": "fail" },
+    { "ruleId": "THEORY-DESIGNER-EMAIL", "status": "pass" },
+    { "ruleId": "THEORY-DESIGNER-DEPT", "status": "warn" },
+    { "ruleId": "LEGACY-OBSOLETE-SECTIONS", "status": "pass" }
+  ],
+  "disallowedStringsInReasons": [
+    "Left ist",
+    "ooperations",
+    "MarkAllenWeiss"
+  ]
+}
